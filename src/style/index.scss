@@ -18,8 +18,10 @@ code {
 }
 
 .header {
-  height: 70px;
+  height: 4rem;
   width: 100%;
+  top: 0;
+  position: fixed;
   background-color: #dddee1;
   display: flex;
   padding: 0 2rem;
@@ -28,7 +30,34 @@ code {
 
   h1 {
     color: #2e3440;
-    font-size: 1.8 rem;
+    font-size: 1.8rem;
     font-weight: 600;
+  }
+}
+
+.footer {
+  height: 4.5rem;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  background-color: #dddee1;
+  display: flex;
+  padding: 0 2.2rem;
+  align-items: center;
+
+  button {
+    background-color: #0c7cfb;
+    padding: 0.9rem;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: #0a4e96;
+      transition: 0.3s;
+    }
   }
 }
