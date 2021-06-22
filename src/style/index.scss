@@ -19,9 +19,9 @@ code {
 
 .header {
   height: 4rem;
-  width: 100%;
+  // width: 100%;
   top: 0;
-  position: fixed;
+  position: static;
   background-color: #dddee1;
   display: flex;
   padding: 0 2rem;
@@ -33,6 +33,22 @@ code {
     font-size: 1.8rem;
     font-weight: 600;
   }
+}
+
+.module-theme-okaidia {
+  // width: 100%;
+  min-height: 25%;
+  max-height: 55%;
+  height: 35%;
+  overflow: auto;
+  resize: vertical;
+}
+
+.user-input_area {
+  // display: flex;
+  // min-height: 25%;
+  // height: 35%;
+  // max-height: 25vh !important;
 }
 
 .footer {
