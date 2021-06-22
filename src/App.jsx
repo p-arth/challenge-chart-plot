@@ -8,7 +8,7 @@ function App() {
     <div className="main-container">
       <Header />
       <UserInput />
-
+      <div className="placeholder"></div>
       <Footer />
     </div>
   );
