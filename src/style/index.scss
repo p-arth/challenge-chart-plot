@@ -35,11 +35,6 @@ code {
   }
 }
 
-.placeholder {
-  height: auto;
-  width: auto;
-}
-
 .module-theme-okaidia {
   width: 100%;
   min-height: 25vh;
@@ -97,6 +92,17 @@ pre {
       content: '≡';
     }
   }
+}
+
+.placeholder {
+  height: auto;
+  width: auto;
+}
+
+.chart-container {
+  max-height: 50vh;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .footer {
