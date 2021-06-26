@@ -2,7 +2,7 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { defaults } from 'react-chartjs-2';
 
-const UltimateChart = () => {
+const UltimateChart = ({ formattedJson }) => {
   defaults.font.family = "'Source Code Pro', 'monospace'";
   defaults.font.weight = '500';
   defaults.font.size = 12;
@@ -42,6 +42,13 @@ const UltimateChart = () => {
         fill: false,
         backgroundColor: 'rgb(255, 99, 132)',
         borderColor: 'rgba(255, 99, 132, 0.2)'
+      },
+      {
+        label: '# of Stuff',
+        data: [7, 9, 6, 5],
+        fill: false,
+        backgroundColor: 'rgb(255, 99, 12)',
+        borderColor: 'rgba(255, 9, 12, 0.2)'
       }
     ]
   };

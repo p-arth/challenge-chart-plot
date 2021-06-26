@@ -1,16 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import UserInput from './components/UserInput';
 import UltimateChart from './components/UltimateChart';
 
 function App() {
+  const [jsonContent, setJsonContent] = useState(
+    `{type: "start", timestamp: 1519862400000, select: ["min_response_time","max_response_time"], group: ["os","browser"]},
+{type: "span", timestamp: 1519862400000, begin: 1519862400000, end: 1519862460000},
+{type: "data", timestamp: 1519862400000, os: "linux", browser: "chrome", min_response_time: 0.1, max_response_time: 1.3},
+{type: "data", timestamp: 1519862400000, os: "mac", browser: "chrome", min_response_time: 0.2, max_response_time: 1.2},
+{type: "data", timestamp: 1519862400000, os: "mac", browser: "firefox", min_response_time: 0.3, max_response_time: 1.2},
+{type: "data", timestamp: 1519862400000, os: "linux", browser: "firefox", min_response_time: 0.1, max_response_time: 1.0},
+{type: "data", timestamp: 1519862460000, os: "linux", browser: "chrome", min_response_time: 0.2, max_response_time: 0.9},
+{type: "data", timestamp: 1519862460000, os: "mac", browser: "chrome", min_response_time: 0.1, max_response_time: 1.1},
+{type: "stop", timestamp: 1519862460000}`
+  );
+  const [formattedJson, setFormattedJson] = useState({});
+
   return (
     <div className="main-container">
       <Header />
-      <UserInput />
-      <UltimateChart />
-      <Footer />
+      <UserInput jsonContent={jsonContent} setJsonContent={setJsonContent} />
+      <UltimateChart formattedJson={formattedJson} />
+      <Footer jsonContent={jsonContent} formattedJson={formattedJson} setFormattedJson={setFormattedJson} />
     </div>
   );
 }
