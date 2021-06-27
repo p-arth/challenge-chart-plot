@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/challenge-chart-plot/static/css/main.795f31e2.chunk.css",
-    "main.js": "/challenge-chart-plot/static/js/main.676235e8.chunk.js",
-    "main.js.map": "/challenge-chart-plot/static/js/main.676235e8.chunk.js.map",
-    "runtime-main.js": "/challenge-chart-plot/static/js/runtime-main.c1501c76.js",
-    "runtime-main.js.map": "/challenge-chart-plot/static/js/runtime-main.c1501c76.js.map",
+    "main.css": "/challenge-chart-plot/static/css/main.91a97d28.chunk.css",
+    "main.js": "/challenge-chart-plot/static/js/main.bc3e24cb.chunk.js",
+    "main.js.map": "/challenge-chart-plot/static/js/main.bc3e24cb.chunk.js.map",
+    "runtime-main.js": "/challenge-chart-plot/static/js/runtime-main.173abf55.js",
+    "runtime-main.js.map": "/challenge-chart-plot/static/js/runtime-main.173abf55.js.map",
     "static/css/2.6643ec16.chunk.css": "/challenge-chart-plot/static/css/2.6643ec16.chunk.css",
-    "static/js/2.b53748a5.chunk.js": "/challenge-chart-plot/static/js/2.b53748a5.chunk.js",
-    "static/js/2.b53748a5.chunk.js.map": "/challenge-chart-plot/static/js/2.b53748a5.chunk.js.map",
-    "static/js/3.11c09272.chunk.js": "/challenge-chart-plot/static/js/3.11c09272.chunk.js",
-    "static/js/3.11c09272.chunk.js.map": "/challenge-chart-plot/static/js/3.11c09272.chunk.js.map",
+    "static/js/2.d6925977.chunk.js": "/challenge-chart-plot/static/js/2.d6925977.chunk.js",
+    "static/js/2.d6925977.chunk.js.map": "/challenge-chart-plot/static/js/2.d6925977.chunk.js.map",
+    "static/js/3.ac301f5e.chunk.js": "/challenge-chart-plot/static/js/3.ac301f5e.chunk.js",
+    "static/js/3.ac301f5e.chunk.js.map": "/challenge-chart-plot/static/js/3.ac301f5e.chunk.js.map",
     "index.html": "/challenge-chart-plot/index.html",
     "static/css/2.6643ec16.chunk.css.map": "/challenge-chart-plot/static/css/2.6643ec16.chunk.css.map",
-    "static/css/main.795f31e2.chunk.css.map": "/challenge-chart-plot/static/css/main.795f31e2.chunk.css.map",
-    "static/js/2.b53748a5.chunk.js.LICENSE.txt": "/challenge-chart-plot/static/js/2.b53748a5.chunk.js.LICENSE.txt"
+    "static/css/main.91a97d28.chunk.css.map": "/challenge-chart-plot/static/css/main.91a97d28.chunk.css.map",
+    "static/js/2.d6925977.chunk.js.LICENSE.txt": "/challenge-chart-plot/static/js/2.d6925977.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1501c76.js",
+    "static/js/runtime-main.173abf55.js",
     "static/css/2.6643ec16.chunk.css",
-    "static/js/2.b53748a5.chunk.js",
-    "static/css/main.795f31e2.chunk.css",
-    "static/js/main.676235e8.chunk.js"
+    "static/js/2.d6925977.chunk.js",
+    "static/css/main.91a97d28.chunk.css",
+    "static/js/main.bc3e24cb.chunk.js"
   ]
 }
