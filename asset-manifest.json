@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/challenge-chart-plot/static/css/main.a76dc13d.chunk.css",
-    "main.js": "/challenge-chart-plot/static/js/main.c6053503.chunk.js",
-    "main.js.map": "/challenge-chart-plot/static/js/main.c6053503.chunk.js.map",
+    "main.js": "/challenge-chart-plot/static/js/main.01cf661d.chunk.js",
+    "main.js.map": "/challenge-chart-plot/static/js/main.01cf661d.chunk.js.map",
     "runtime-main.js": "/challenge-chart-plot/static/js/runtime-main.90ed01bc.js",
     "runtime-main.js.map": "/challenge-chart-plot/static/js/runtime-main.90ed01bc.js.map",
     "static/css/2.6643ec16.chunk.css": "/challenge-chart-plot/static/css/2.6643ec16.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.6643ec16.chunk.css",
     "static/js/2.e688d0cd.chunk.js",
     "static/css/main.a76dc13d.chunk.css",
-    "static/js/main.c6053503.chunk.js"
+    "static/js/main.01cf661d.chunk.js"
   ]
 }
