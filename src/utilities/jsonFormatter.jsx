@@ -188,6 +188,17 @@ export const jsonFormatter = (input) => {
     }
 
     const groupedObjects = _.groupBy(objectsArray, (object) => object.type);
+
+    if (
+      groupedObjects.start === undefined ||
+      groupedObjects.stop === undefined ||
+      groupedObjects.span === undefined ||
+      groupedObjects.data === undefined
+    ) {
+      showErrorAlert();
+      return [null, null];
+    }
+
     // console.log('grouped', groupedObjects);
     const [start] = groupedObjects.start;
     const [stop] = groupedObjects.stop;
