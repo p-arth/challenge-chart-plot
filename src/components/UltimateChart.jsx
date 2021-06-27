@@ -33,29 +33,31 @@ const UltimateChart = ({ formattedJson }) => {
     }
   };
 
-  const mockupData = {
-    labels: ['1', '2', '3', '4'],
-    datasets: [
-      {
-        label: '# of Things',
-        data: [12, 19, 3, 5],
-        fill: false,
-        backgroundColor: 'rgb(255, 99, 132)',
-        borderColor: 'rgba(255, 99, 132, 0.2)'
-      },
-      {
-        label: '# of Stuff',
-        data: [7, 9, 6, 5],
-        fill: false,
-        backgroundColor: 'rgb(255, 99, 12)',
-        borderColor: 'rgba(255, 9, 12, 0.2)'
-      }
-    ]
-  };
+  // const mockupData = {
+  //   labels: ['1', '2', '3', '4'],
+  //   datasets: [
+  //     {
+  //       label: '# of Things',
+  //       data: [12, 19, 3, 5],
+  //       fill: false,
+  //       backgroundColor: 'rgb(255, 99, 132)',
+  //       borderColor: 'rgba(255, 99, 132, 0.2)'
+  //     },
+  //     {
+  //       label: '# of Stuff',
+  //       data: [7, 9, 6, 5],
+  //       fill: false,
+  //       backgroundColor: 'rgb(255, 99, 12)',
+  //       borderColor: 'rgba(255, 9, 12, 0.2)'
+  //     }
+  //   ]
+  // };
+
+  let data = formattedJson;
 
   return (
     <div className="chart-container">
-      <Line data={mockupData} type={'line'} className={'chart-canvas'} options={chartOptions} />
+      <Line data={data} type={'line'} className={'chart-canvas'} options={chartOptions} />
     </div>
   );
 };
