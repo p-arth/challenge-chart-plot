@@ -47,7 +47,7 @@ code {
 .module-theme-okaidia {
   width: 100%;
   min-height: 25vh;
-  max-height: 35vh;
+  max-height: 45vh;
   overflow: auto;
   &::-webkit-scrollbar-thumb {
     background-color: #60656e;
@@ -66,13 +66,13 @@ code {
 
 pre {
   min-height: 25vh;
-  max-height: 35vh;
+  max-height: 45vh;
 }
 
 .box-input {
   display: flex;
   min-height: 25vh;
-  max-height: 35vh;
+  max-height: 45vh;
   overflow: hidden;
 }
 

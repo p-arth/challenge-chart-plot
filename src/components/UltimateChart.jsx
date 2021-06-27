@@ -56,7 +56,7 @@ const UltimateChart = ({ formattedJson }) => {
   let data = formattedJson;
 
   return (
-    <div className="chart-container">
+    <div data-cy="chart-container" className="chart-container">
       <Line data={data} type={'line'} className={'chart-canvas'} options={chartOptions} />
     </div>
   );

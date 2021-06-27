@@ -22,7 +22,9 @@ const Footer = ({ jsonContent, setFormattedJson }) => {
 
   return (
     <div className="footer">
-      <button onClick={() => handleButtonClick()}>Generate Chart</button>
+      <button data-cy="footer-button" onClick={() => handleButtonClick()}>
+        Generate Chart
+      </button>
     </div>
   );
 };

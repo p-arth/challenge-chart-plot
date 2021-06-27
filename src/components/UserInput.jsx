@@ -5,7 +5,7 @@ import ResizePanel from 'react-resize-panel';
 const UserInput = ({ jsonContent, setJsonContent }) => {
   return (
     <ResizePanel direction="s" handleClass="input-handler">
-      <div className="box-input">
+      <div className="box-input" data-cy="prism-editor">
         <ReactPrismEditor
           language={'json'}
           theme={'okaidia'}

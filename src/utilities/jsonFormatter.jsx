@@ -73,7 +73,7 @@ export const jsonFormatter = (input) => {
       let maxTime = object.max_response_time;
 
       return {
-        title: `${os} ${browser}`,
+        info: `${os} ${browser}`,
         min_response_time: minTime,
         max_response_time: maxTime,
         timestamp: object.timestamp
@@ -182,7 +182,7 @@ export const jsonFormatter = (input) => {
       }
     });
 
-    if (objectsArray.length <= 1) {
+    if (objectsArray === undefined || objectsArray.length <= 1) {
       showErrorAlert();
       return [null, null];
     }
@@ -193,7 +193,6 @@ export const jsonFormatter = (input) => {
     const [stop] = groupedObjects.stop;
     const [span] = groupedObjects.span;
     const dataGroup = groupedObjects.data;
-    // console.log('start', start);
 
     if (start === undefined || stop === undefined || span === undefined || dataGroup === []) {
       showErrorAlert();
