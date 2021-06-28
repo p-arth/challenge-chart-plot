@@ -4,16 +4,16 @@ A React Web App, part of the Intelie frontend challenge. It's an application tha
 
 # Running the App
 
-## Requirements: Nodejs, internet browser.
+### Requirements: Nodejs, internet browser.
 
-## Tested browser compatibility: Opera, Google Chrome, Mozilla Firefox, Microsoft Edge.
+### Tested browser compatibility: Opera, Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 - Open your terminal of choice
 - Clone the repository with $git clone
-- Run `<$npm install>`
-- Run `<$npm start>`
+- Run `$ npm install`
+- Run `$ npm start`
 - Check the browser address: localhost:3000/challenge-chart-plot
-- Run tests using `<npx cypress run>` or `<npx cypress open>` if you want a graphic interface.
+- Run tests using `$ npx cypress run` or `$ npx cypress open` if you want a graphic interface.
 
 # Development Process and Documentation
 
