@@ -19,4 +19,4 @@ A React Web App, part of the Intelie frontend challenge. It's an application tha
 
 [Documentation](https://docs.google.com/document/d/1Wzf1_pkbF6JB1XYYHdhcVrTJvzR50O2QlcdjnFK5WWI/edit?usp=sharing)
 
-![App Thumbnail](./assets/images/thumb.png)
+![App Thumbnail](./src/assets/images/thumb.png)
